@@ -48,7 +48,8 @@ dependencies {
 protobuf {
     protoc {
         // download the protobuf compiler
-        artifact = 'com.google.protobuf:protoc:3.0.0'
+        // artifact = 'com.google.protobuf:protoc:3.0.0'
+        path = '/usr/local/bin/protoc'
     }
     plugins {
         // define grpc plugin for the protobuf compiler
